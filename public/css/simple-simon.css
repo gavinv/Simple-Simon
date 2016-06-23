@@ -1,37 +1,44 @@
-.container {
-	width: 250px;
-	height: 250px;
+
+
+.squares {
+	width: 240px;
+	height: 240px;
 	display: flex;
+	background: #000;
 	flex-flow: row wrap;
-	justify-content: center;
-	justify-content: space-around;
 }
+
+.extreme {
+	background: ghostwhite !important;
+}
+
 .square1 {
-	display: flex;
 	width: 100px;
 	height: 100px;
-	background: red;
+	margin: 10px;
+	background: #D50813;
+	opacity: .6;
 
 }
 .square2 {
-	display: flex;
 	width: 100px;
 	height: 100px;
-	background: blue;
+	margin: 10px;
+	background: #36B5FF;
+	opacity: .6;
 
 }
 .square3 {
-	display: flex;
 	width: 100px;
 	height: 100px;
-	background: green;
-	order: 4;
+	margin: 10px;
+	background: #24F041;
+	opacity: .6;
 }
 .square4 {
-	display: flex;
 	width: 100px;
 	height: 100px;
-	background: yellow;
-	flex-wrap: wrap-reverse;
-	order: 3;
+	margin: 10px;
+	background: #EBDA00;
+	opacity: .6;
 }
